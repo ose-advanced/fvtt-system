@@ -1,0 +1,23 @@
+{
+  "name": "ose-advanced",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently npm:dev:*",
+    "dev:js": "rollup --watch --input src/main.mjs --output.file ose-advanced.mjs --format es --inlineDynamicImports",
+    "dev:scss": "sass style/ose-advanced.scss ose-advanced.css --style=expanded --source-map --watch",
+    "build": "concurrently npm:build:*",
+    "build:js": "rollup --input src/main.mjs --output.file ose-advanced.mjs --format es --treeshake recommended --compact --inlineDynamicImports",
+    "build:scss": "sass style/ose-advanced.scss ose-advanced.css --style=compressed --no-source-map"
+  },
+  "keywords": [],
+  "author": "Joel Driver <driverjb09@gmail.com> (https://joeldriver.info/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@league-of-foundry-developers/foundry-vtt-types": "^9.280.0",
+    "concurrently": "^8.2.2",
+    "rollup": "^4.13.1",
+    "sass": "^1.72.0"
+  }
+}

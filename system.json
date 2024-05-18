@@ -1,0 +1,50 @@
+{
+  "id": "ose-advanced",
+  "title": "Old School Essentials: Advanced",
+  "description": "An open source implementation of Old School Essentials Advanced Fantasy for FoundryVTT",
+  "version": "0.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.323"
+  },
+  "authors": [
+    {
+      "name": "driverjb",
+      "discord": "cinderos",
+      "url": "https://gitlab.com/driverjb",
+      "email": "driverjb09@gmail.com",
+      "flags": {}
+    }
+  ],
+  "url": "https://github.com/ose-advanced/fvtt-system",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "bugs": "https://github.com/ose-advanced/fvtt-system/issues",
+  "changelog": "CHANGELOG.md",
+  "media": [
+    {
+      "type": "setup",
+      "url": "systems/ose-advanced/assets/logo.png",
+      "thumbnail": "systems/ose-advanced/assets/logo.png",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "esmodules": ["src/main.mjs"],
+  "styles": ["ose-advanced.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "manifest": "Replace this with a link to the /latest release system.json so people can receive updates after they've installed the system",
+  "download": "This must link to a .zip file of the current version",
+  "background": "systems/ose-advanced/assets/logo.png",
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "hp",
+  "secondaryTokenAttribute": "power"
+}

@@ -1,0 +1,15 @@
+{
+  "Actor": {
+    "types": ["player_character", "monster"],
+    "htmlFields": ["biography", "description", "notes", "summary", "document"],
+    "player_character": {},
+    "monster": {}
+  },
+  "Item": {
+    "types": ["ability", "character_class"],
+    "htmlFields": ["biography", "description", "notes", "summary", "document"],
+    "item": {},
+    "ability": {},
+    "character_class": {}
+  }
+}
