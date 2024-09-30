@@ -17,7 +17,7 @@
     }
   ],
   "url": "https://github.com/ose-advanced/fvtt-system",
-  "license": "LICENSE",
+  "license": "LICENSE.txt",
   "readme": "README.md",
   "bugs": "https://github.com/ose-advanced/fvtt-system/issues",
   "changelog": "CHANGELOG.md",
@@ -46,5 +46,5 @@
   "gridDistance": 5,
   "gridUnits": "ft",
   "primaryTokenAttribute": "hp",
-  "secondaryTokenAttribute": "power"
+  "secondaryTokenAttribute": "spells"
 }

@@ -15,9 +15,9 @@
   "author": "Joel Driver <driverjb09@gmail.com> (https://joeldriver.info/)",
   "license": "MIT",
   "devDependencies": {
-    "@league-of-foundry-developers/foundry-vtt-types": "^9.280.0",
+    "@league-of-foundry-developers/foundry-vtt-types": "^9.280.1",
     "concurrently": "^8.2.2",
-    "rollup": "^4.13.1",
-    "sass": "^1.72.0"
+    "rollup": "^4.22.5",
+    "sass": "^1.79.4"
   }
 }
